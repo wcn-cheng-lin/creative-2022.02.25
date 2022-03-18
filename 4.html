@@ -1,0 +1,24 @@
+<IDOCTYPE html>
+<html lang="en”>
+<head>
+  <meat charset="utf-8">
+  <title>css selecter</title>
+  <style type="text/css">
+  #tst1 {text-align: center;}
+  h1#tst1 {color: red;}
+  div strong {color: red;}
+  a:link {color: red}
+  a:visited {color: blue}
+  p:hover {color: red}
+  </style>
+</<head>
+<body>
+  <h1 id="tst1">Both style declarations apply.</h1>
+  <h2 id="tst1">Only one style declaration apply.</h2>
+  <div>
+    <p>The red style <strong>has been applied to this element.</strong></p>
+  </div>
+  <p>The red style <strong>has not been applied to this element.</strong></p>
+  <a href="http://by.cuc.edu.cn/" target="blank">Visit CUC Website</a>
+  <p>The red style is applied when the mouse cursor hovers over this element.</p>
+</body>
